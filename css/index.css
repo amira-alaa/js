@@ -1,0 +1,86 @@
+body{
+    overflow: hidden;
+    background-color: cadetblue;
+}
+.header,#write-task {
+    text-align: center;
+    margin: auto;
+
+}
+.header{
+    margin-bottom: 20px;
+    margin-top: 15rem;
+    color: rgb(57, 57, 93);
+    font-size: 28px;
+}
+#clear{
+    margin: auto;
+    background-color: transparent;
+    color: rgb(57, 57, 93);;
+    border: 0px;
+    font-size: 13px;
+    width: 60px;
+}
+#add{
+    color: rgb(57, 57, 93);
+    background-color: transparent;
+    border: 0px;
+    font-size: 13px;
+    width: 60px;
+}
+#add:hover{
+    cursor: pointer;
+    border: 2px;
+    background-color: rgba(57, 57, 93, 0.5);
+    border-radius:25px ;
+    color: white;
+}
+#clear:hover{
+    cursor: pointer;
+    border: 2px;
+    background-color: rgba(57, 57, 93, 0.5);
+    border-radius:25px ;
+    color: white;
+}
+
+
+#list{
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
+.task {
+    display: flex;
+    background-color: white;
+    width: 300px;
+    margin: auto;
+}
+.task .delete{
+    margin: 10px;
+    margin-right: 0px;
+    padding: 0px;
+    border: none;
+}
+.task .check_but{
+    margin: 10px 0px;
+    padding: 0px;
+    border: none;
+}
+.task p{
+   margin-top:10px;
+}
+.task input:focus{
+    outline: none;
+}
+.task input{
+    margin-top:5px;
+    text-align: center;
+}
+.task i{
+    color:red;
+    padding: 0px;
+    margin: 0px;
+}
+.style{
+    text-decoration-line:line-through  black;
+}
